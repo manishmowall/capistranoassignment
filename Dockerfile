@@ -8,4 +8,4 @@ RUN apt-get update \
 	&& apt-get install -y g++ \
 	&& g++ -o myapp restaurantRecommendationProgram.cpp
  
-CMD ["./myapp","sample_data.csv","burger"]
+CMD ["./myapp","sample_data.csv","burger","tofu_log"]
